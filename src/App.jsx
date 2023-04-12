@@ -6,7 +6,7 @@ import Projects from './pages/Projects';
 import Skills from './pages/Skills';
 const App = () => {
   return (
-    <div className="w-full px-2 py-6 lg:px-10 lg:w-2/3 mx-auto transition-all duration-150 bg-black flex min-h-screen justify-center items-center ">
+    <div className="w-full px-2 py-6 lg:px-10 lg:w-2/3 mx-auto transition-all duration-150 bg-transparent flex min-h-screen justify-center items-center ">
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />

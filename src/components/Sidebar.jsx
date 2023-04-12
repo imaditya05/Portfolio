@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
@@ -28,6 +28,13 @@ const Sidebar = () => {
       >
         Skills{' '}
       </NavLink>
+      <Link
+        className="text-lg md:text-xl text-gray-400 hover:text-white "
+        to="https://drive.google.com/file/d/1ATiulvFnMW9S2q1ZaSHZZ0PLEaxzHr6X/view?usp=sharing"
+        target="_blank"
+      >
+        Resume{' '}
+      </Link>
     </div>
   );
 };

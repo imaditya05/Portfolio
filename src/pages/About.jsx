@@ -12,8 +12,10 @@ const About = () => {
   return (
     <div className="flex flex-col space-y-6 md:space-y-0 md:flex-row text-white md:space-x-16 md:items-start ">
       <Sidebar />
+
+      {/* About me content */}
       <div className="flex flex-col space-y-6 w-full items-start">
-        <h1 className="text-2xl md:text-4xl text-white font-semibold">
+        <h1 className="text-2xl md:text-4xl text-white font-semibold px-3 font-Raleway">
           About Me{' '}
         </h1>
         <div className="w-full px-3 md:w-2/3 flex flex-col space-y-3 flex-wrap">
@@ -43,6 +45,7 @@ const About = () => {
           </p>
         </div>
 
+        {/* Socials */}
         <div className="flex space-x-2 md:space-x-6">
           <Link
             className="flex space-x-2 md:space-x-4 items-center border-[0.025rem] rounded-md border-slate-700 px-3 py-2 hover:bg-zinc-800 "
